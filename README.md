@@ -27,6 +27,6 @@ SpellCaster for MAGE is a native loader to dynamically store and load a MAGE bas
 
 1. SpellCaster will check for an active internet connection.
 2. SpellCaster downloads the content of the provided application URL and stores to application cache (overriding any existing loader).
-3. SpellCaster injects Cordova script tags just the `<head>` tag.
+3. SpellCaster injects Cordova script tags just after the `<head>` tag.
 4. SpellCaster loads the new loader into the WebView.
 
