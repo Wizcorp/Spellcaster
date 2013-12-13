@@ -1,20 +1,16 @@
-
 ![image](logo.gif)
 
 
 
 ## About
----
 
 SpellCaster for MAGE is a native loader to dynamically store and load a MAGE based application's dynamically generated loader file.
 
 ## Requirements
----
 
 - Cordova v3.0+
 
 ## Install for iOS
----
 
 #### Install
 
@@ -27,8 +23,7 @@ SpellCaster for MAGE is a native loader to dynamically store and load a MAGE bas
 - Add `[[MageSpellCaster alloc] init:self.viewController];` to `- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions` method.
 - Add your application URL to Cordova's `config.xml` in `<content src=YOUR_URL_HERE>`.
 
-## How it works (step-by-step)
----
+## How It Works (Step-By-Step)
 
 1. SpellCaster will check for an active internet connection.
 2. SpellCaster downloads the content of the provided application URL and stores to application cache (overriding any existing loader).
