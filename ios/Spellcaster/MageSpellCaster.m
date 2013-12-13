@@ -110,7 +110,9 @@ static int currentRetry = 0;
 
         // Replace string
         loaderString = [loaderString stringByReplacingOccurrencesOfString:@"<head>"
-                                             withString:scriptTags];
+                                             withString:scriptTags
+                                                options:NSCaseInsensitiveSearch
+                                                  range:NSMakeRange(0, [loaderString length])];
 
         // Write to file
         [loaderString writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:NULL];
