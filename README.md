@@ -78,7 +78,7 @@ Inside the values-* folder should be a String.xml file. The following strings re
 
 ## How It Works (Step-By-Step)
 
-1. Spellcaster will check for an active internet connection. If one is not found Spellcaster will coninute retrying at a set interval.
+1. Spellcaster will check for an active internet connection. If one is not found Spellcaster will continue retrying at a set interval.
 2. Spellcaster downloads the content of the provided application URL and stores to application cache (overriding any existing loader).
 3. Spellcaster injects Cordova script tags just after the `<head>` tag.
 4. Spellcaster loads the new loader into the WebView.
