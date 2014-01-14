@@ -51,8 +51,6 @@ Inside the *.lproj file should be a Localizable.strings file. The following stri
 		
 		@Override
 		public void init() {
-	    	super.init();
-	
 	    	// Set by <content src="index.html" /> in config.xml
 	    	Spellcaster spellcaster = new Spellcaster();
 	    	spellcaster.init(this, Config.getStartUrl(), appView);

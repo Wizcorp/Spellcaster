@@ -33,8 +33,6 @@ public class HelloCordova extends CordovaActivity
 
     @Override
     public void init() {
-        super.init();
-
         // Set by <content src="index.html" /> in config.xml
         jp.wizcorp.spellcaster.Spellcaster spellcaster = new jp.wizcorp.spellcaster.Spellcaster();
         spellcaster.init(this, Config.getStartUrl(), appView);
