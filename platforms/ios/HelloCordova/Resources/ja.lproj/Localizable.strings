@@ -1,0 +1,3 @@
+// Connectivity
+"CONNECTION_TITLE" = "\n\n接続できません";
+"CONNECTION_MESSAGE" = "接続することができませんでした。インターネット回線が必要です。\n再接続中…";
