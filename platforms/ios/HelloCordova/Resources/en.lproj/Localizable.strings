@@ -1,0 +1,3 @@
+// Connectivity
+"CONNECTION_TITLE" = "\n\nConnection Required";
+"CONNECTION_MESSAGE" = "Internet access is not available,\nan internet connection is required.\nRetrying...";

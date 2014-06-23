@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connection_title">接続できません</string>
+    <string name="connection_message">接続することができませんでした。インターネット回線が必要です。\n再接続中…</string>
+</resources>
