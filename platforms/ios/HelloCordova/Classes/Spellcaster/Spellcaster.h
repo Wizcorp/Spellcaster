@@ -48,7 +48,7 @@
 
 /**
 * This method is used to create the XML parser for the config.xml file that is provided by Cordova.
-* NSXMLParserDelegate must be set on MageSpellCaster Class to obtain the override methods for parsing.
+* NSXMLParserDelegate must be set on the SpellCaster Class to obtain the override methods for parsing.
 *
 */
 - (void)parseConfig;
